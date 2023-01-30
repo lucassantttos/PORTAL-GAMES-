@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6f4697d820.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/styleDetalhes.css" />
+    <title>CAPCOM GAMES</title>
+</head>
+
+<body>
+
+    <header id="cabecalho">
+
+        <a href="index.html">
+        <img src="https://th.bing.com/th/id/R.6f3dd5c12855cfdbb8412f439bc789ea?rik=KUUeZbBrI%2bzQZw&riu=http%3a%2f%2fvgboxart.com%2fresources%2flogo%2f7158_capcom-prev.png&ehk=KSTBQs6pDiBM3E1O0Vwmk7r0dlqDWJEvvjHT0d2%2bRDI%3d&risl=&pid=ImgRaw&r=0" alt="logo">
+        </a>
+
+        <div>
+            <nav class="nav">
+                <input type="checkbox" id="menuToggle">
+                <label for="menuToggle" class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </label>
+
+                <ul id="menu" class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#destaques">Destaques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#lancamentos">Lançamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#plataformas">Plataformas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html#publishers">Plublisher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html#sobre">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav id="shared" class="navbar navbar-light">
+                <input type="checkbox" id="sharedToggle">
+                <label for="sharedToggle" class="shared-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+
+                <form class="form-inline">
+                    <input id="strShared" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </nav>
+        </div>
+
+    </header>
+
+    <main id="conteudo">
+
+        <section id="destaques" class="container">
+
+            <h1 id="nameGame">Jogo Em Destaque</h1>
+
+            <div class="row">
+                
+                <div id="imgCard" class=" col-8 carousel-inner">
+                        
+                </div>
+                
+                <div id="sobre" class="col-4">
+
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                    <div id="textDesc" class="descricaoDestaque">
+                        <h2>Descrição Game</h2>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer id="footer">
+            <p>Copyright 2022 - Disciplina de Desenvolvimento de Interfaces Web - <strong>ICEI PUC Minas</strong></strong>
+            </p>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+    
+        <script src="assets/detalhes.js"></script>
+        <script src="assets/jquery-3.6.1.min.js"></script>
+</body>
+
+</html>
